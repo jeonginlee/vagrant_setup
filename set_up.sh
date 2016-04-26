@@ -1,6 +1,7 @@
 echo " Git set-up ------------------------------------------"
+rm -rf .git
+
 sudo apt-get install git
-y
 git init
 
 wget https://raw.githubusercontent.com/jeonginlee/vagrant_setup/master/.gitignore --output-document=.gitignore
