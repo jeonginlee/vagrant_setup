@@ -17,6 +17,7 @@ vagrant ssh
 cd /vagrant
 source venv/bin/activate
 sh set_up.sh <URL FOR EMPTY REPO>
+git push -u origin master
 ```
 
 ### Additional set-up:
