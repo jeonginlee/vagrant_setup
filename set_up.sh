@@ -1,5 +1,6 @@
 echo " Git set-up ------------------------------------------"
 rm -rf .git
+rm README.md
 
 sudo apt-get install git
 git init
@@ -32,4 +33,5 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo " tmux set-up ----------------------------------------"
 sudo apt-get install tmux
+
 

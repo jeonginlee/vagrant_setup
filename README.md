@@ -16,7 +16,7 @@ vagrant up
 vagrant ssh
 cd /vagrant
 source venv/bin/activate
-sh run.sh <URL FOR EMPTY REPO>
+sh set_up.sh <URL FOR EMPTY REPO>
 ```
 
 ### Additional set-up:
