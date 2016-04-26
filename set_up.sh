@@ -1,15 +1,8 @@
 echo " Vagrant set-up --------------------------------------"
-# vagrant files upload
-git init
-git remote add origin https://github.com/jeonginlee/vagrant_setup.git
-git pull origin master
-
 vagrant up
 vagrant ssh 
 cd /vagrant
 source venv/bin/active
-
-rm -rf .git
 
 
 echo " Git set-up ------------------------------------------"
