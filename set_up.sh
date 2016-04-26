@@ -1,10 +1,3 @@
-echo " Vagrant set-up --------------------------------------"
-vagrant up
-vagrant ssh 
-cd /vagrant
-source venv/bin/active
-
-
 echo " Git set-up ------------------------------------------"
 sudo apt-get install git
 y

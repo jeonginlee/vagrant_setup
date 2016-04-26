@@ -10,6 +10,12 @@ Set up config files for Vagrant + venv
 
 ## To run:
 ```
+git clone https://github.com/jeonginlee/vagrant_setup.git <DIRECTORY NAME>
+cd <DIRECTORY NAME>
+vagrant up
+vagrant ssh
+cd /vagrant
+source venv/bin/activate
 sh run.sh <URL FOR EMPTY REPO>
 ```
 
