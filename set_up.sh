@@ -22,7 +22,7 @@ sudo apt-get install git
 y
 git init
 
-wget https://raw.githubusercontent.com/jeonginlee/vagrant_setup/master/_gitignore --output-document=.gitignore
+wget https://raw.githubusercontent.com/jeonginlee/vagrant_setup/master/.gitignore --output-document=.gitignore
 
 # setting up for remote add
 git config --global user.name "Jeongin Lee"
