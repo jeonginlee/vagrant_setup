@@ -1,13 +1,8 @@
 echo " Vagrant set-up --------------------------------------"
-sudo apt-get install git
-y
-
 # vagrant files upload
 git init
 git remote add origin https://github.com/jeonginlee/vagrant_setup.git
 git pull origin master
-
-rm README.md
 
 vagrant up
 vagrant ssh 
