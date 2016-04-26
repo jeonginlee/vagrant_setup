@@ -9,10 +9,10 @@ Set up config files for Vagrant + venv
 
 
 ## To run:
-'''
-
-'''
-
+```
+wget https://raw.githubusercontent.com/jeonginlee/vagrant_setup/master/set_up.sh
+sh run.sh <URL FOR EMPTY REPO>
+```
 
 ### Additional set-up:
 1. :PluginInstall (inside of vim)
